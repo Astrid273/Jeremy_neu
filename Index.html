@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Su Decisión</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+  }
+  h1 {
+    font-size: 48px;
+    color: red;
+    text-shadow: 2px 2px 4px white;
+    animation: moveText 2s ease-in-out infinite alternate;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: 2px solid white; /
+    border-radius: 5px; /
+    text-decoration: none; 
+  }
+  .button:hover {
+    background-color: #555; 
+  }
+  @keyframes moveText {
+    from {
+      transform: translateY(-10%);
+    }
+    to {
+      transform: translateY(10%);
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>El Juego</h1>
+<a class="button" href="weiter.html">Continúa</a>
+
+</body>
+</html>
+
